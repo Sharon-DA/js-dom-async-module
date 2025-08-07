@@ -22,10 +22,8 @@ An interactive task tracker built using basic HTML, CSS, and JavaScript DOM mani
 
 ### 🗂 Folder Structure
 ```text
-js-dom-async-module/         ← GitHub repository root
-│
+.
 ├── README.md                ← Overview of the entire module
-│
 ├── tasks/
 │   ├── todo-interactive/    ← Task folder: Build a Simple Interactive To-Do List
 │   │   ├── index.html       ← HTML structure
