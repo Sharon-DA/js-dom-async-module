@@ -40,7 +40,8 @@ An interactive task tracker built using basic HTML, CSS, and JavaScript DOM mani
 
 1. Open `index.html` in a browser.
 2. Click any task item to mark it complete/incomplete.
-3. Tick icon will appear and task color will update from grey to blue dynamically.
+3. (Planned) Tick icon will appear and task color will update from grey to blue dynamically.  
+   _Note: The implementation files (`index.html`, `style.css`, `script.js`) are not included in this PR, so these features are described for future implementation._
 
 
 
