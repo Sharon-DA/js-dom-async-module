@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interactive To Do List</h1>
+    <ul id="todo-list">
+        <li id="complete-eha-assignment" onclick="toggleTask('complete-eha-assignment')">
+            Complete eHA Assignment<span class="tick-icon">✓</span>
+        </li>
+        <li id="complete-project-report" onclick="toggleTask('complete-project-report')">
+            Complete Project Report<span class="tick-icon">✓</span>
+        </li>
+        <li id="fill-my-logbook" onclick="toggleTask('fill-my-logbook')">
+            Fill my Logbook<span class="tick-icon">✓</span>
+        </li>
+        <li id="laundry" onclick="toggleTask('laundry')">
+            Laundry<span class="tick-icon">✓</span>
+        </li>
+        <li id="data-cleaning" onclick="toggleTask('data-cleaning')">
+            Data Cleaning<span class="tick-icon">✓</span>
+        </li>
+        <li id="bible-study" onclick="toggleTask('bible-study')">
+            Bible Study<span class="tick-icon">✓</span>
+        </li>
+    </ul>
+    <h2>Add Task</h2>
+    <input type="text" id="new-task-input" placeholder="New task..." />
+    <button onclick="addTask()">Add</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
