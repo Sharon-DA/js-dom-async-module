@@ -15,6 +15,6 @@ function fetchDataWithCallback(callback) {
 
 
 fetchDataWithCallback(function(message) {
-  console.log(message);
+  console.log(message); 
 });
-// Using fetchDataWithCallback
+// Using fetchDataWithCallbacs
